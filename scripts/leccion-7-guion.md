@@ -205,6 +205,6 @@ Y con esto cerramos el curso. Miren lo que aprendieron en estas siete lecciones.
 
 Aprendieron qué es una página web y cómo funciona. Aprendieron la estructura HTML — el esqueleto que sostiene todo. Aprendieron los cinco elementos de contenido más usados. Aprendieron CSS — cómo darle color, estilo y forma a lo que construyeron. Aprendieron a hacer tarjetas, bordes y centrado. Y construyeron una página de perfil personal completa desde cero.
 
-Eso es muchísimo para empezar. Sigan practicando. Experimenten con el código. Rómplanlo a propósito para ver qué pasa y luego arréglelo. Así es como todos los programadores aprenden, sin excepción.
+Eso es muchísimo para empezar. Sigan practicando. Experimenten con el código. Rómpanlo a propósito para ver qué pasa y luego arréglelo. Así es como todos los programadores aprenden, sin excepción.
 
 ¡Buena suerte!
