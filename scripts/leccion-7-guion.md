@@ -1,95 +1,91 @@
-# LECCIÓN 7 — Errores comunes y recomendaciones
-**Narrador: Joel | Duración estimada: ~8 minutos**
+# Script Video — Lección 7
+## Errores comunes y recomendaciones | ~8 minutos
 
 ---
 
-[EN PANTALLA: abrir una diapositiva o slide con un resumen visual de todo lo aprendido en el curso: HTML, CSS, la página de perfil.]
+[EN PANTALLA: mostrar diapositiva con resumen visual de todo lo aprendido: HTML, CSS, página de perfil]
 
 Hola, bienvenidos a la última lección del curso.
 
-Ya saben HTML, ya saben CSS, y ya construyeron su primera página de perfil. Eso es enorme para alguien que hace un rato no sabía nada de programación. Félicitense un momento.
-
-En este video voy a mostrarles los errores que comete *todo el mundo* al empezar. Son errores silenciosos — el navegador no grita, no aparece ningún mensaje rojo — y por eso son frustrantes. Los van a reconocer la próxima vez que les pase, y eso marca la diferencia entre alguien que abandona y alguien que sigue aprendiendo.
+Ya saben HTML, ya saben CSS, y ya construyeron su primera página de perfil. Eso es enorme para alguien que hace un rato no sabía nada de programación — así que felicítense un momento. En este video voy a mostrarles los errores que comete todo el mundo al empezar. Son errores silenciosos, el navegador no grita y no aparece ningún mensaje rojo, y por eso son frustrantes. Pero una vez que los conocen, los van a reconocer de inmediato la próxima vez que les pase, y eso marca la diferencia entre alguien que abandona y alguien que sigue aprendiendo.
 
 ---
 
 ## Errores comunes en HTML
 
-[EN PANTALLA: abrir CodePen con un HTML de ejemplo listo para demostrar los errores.]
+[EN PANTALLA: abrir CodePen con el HTML de ejemplo listo]
 
-### Error 1: Olvidar cerrar una etiqueta
+Empecemos con los errores en HTML. Voy a mostrarles tres de los más frecuentes.
 
-[EN PANTALLA: escribir el siguiente código en el panel HTML:]
+### Error 1 — Olvidar cerrar una etiqueta
+
+[EN PANTALLA: escribir en el panel HTML]
 
 ```html
 <p>Este texto tiene algo <b>importante aquí
 <p>Y este párrafo también</p>
 ```
 
-[EN PANTALLA: mostrar el preview — el segundo párrafo aparece en negrita aunque no debería.]
+[EN PANTALLA: mostrar el preview — el segundo párrafo aparece en negrita]
 
-Miren lo que pasa. La etiqueta `<b>` — que pone el texto en negrita — no fue cerrada. El navegador intenta arreglarlo solo, pero lo hace a su manera: aplica la negrita al siguiente párrafo también, aunque no lo pedimos.
+Miren lo que pasa. La etiqueta `<b>` — que pone el texto en negrita — no fue cerrada. El navegador intenta arreglarlo solo, pero lo hace a su manera: aplica la negrita al siguiente párrafo también, aunque no lo pedimos. El problema es que esto puede verse "bien" por un momento, pero cuando el proyecto crezca y tengan decenas de etiquetas, ese error escondido va a causar efectos raros muy difíciles de encontrar. Por eso la regla es simple: cada etiqueta que abren, la cierran, sin excepciones.
 
-El problema es que esto puede verse "bien" por un momento, pero cuando el proyecto crezca y tengan decenas de etiquetas, ese error escondido va a causar efectos raros que serán muy difíciles de encontrar.
-
-[EN PANTALLA: corregir el código agregando `</b>` en el lugar correcto:]
+[EN PANTALLA: corregir el código agregando `</b>` en el lugar correcto]
 
 ```html
 <p>Este texto tiene algo <b>importante</b> aquí</p>
 <p>Y este párrafo también</p>
 ```
 
-[EN PANTALLA: mostrar el preview corregido.]
+[EN PANTALLA: mostrar el preview corregido]
 
-La regla es simple: **cada etiqueta que abren, la cierran**. Sin excepciones, salvo las etiquetas vacías como `<img>` que vieron en la Lección 3.
+Así queda correcto.
 
 ---
 
-### Error 2: Escribir mal el nombre de la etiqueta
+### Error 2 — Escribir mal el nombre de la etiqueta
 
-[EN PANTALLA: escribir:]
+[EN PANTALLA: escribir en el panel HTML]
 
 ```html
 <imge src="https://images.pexels.com/photos/821365/pexels-photo-821365.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Una imagen de prueba">
 ```
 
-[EN PANTALLA: mostrar el preview — la imagen no aparece, no hay ningún error visible.]
+[EN PANTALLA: mostrar el preview — la imagen no aparece, sin ningún error visible]
 
-¿Ven? La imagen no aparece. Nada. El navegador no dice nada, no hay ningún mensaje de error. Simplemente no pasa nada.
+¿Ven? La imagen no aparece. Nada. El navegador no dice nada, no hay ningún mensaje de error, simplemente no pasa nada. Eso es porque escribí `<imge>` en vez de `<img>` — una letra de más. Para el navegador, `<imge>` es una etiqueta que no existe y la ignora sin avisarnos. Entonces cuando algo no funciona y no ven ningún error evidente, lo primero que revisen es si escribieron bien el nombre de la etiqueta.
 
-Eso es porque escribí `<imge>` en vez de `<img>`. Una letra de más. Para el navegador, `<imge>` es una etiqueta que no existe — la ignora. Y no les avisa.
-
-[EN PANTALLA: corregir a `<img>` y mostrar que la imagen aparece.]
-
-La solución: cuando algo no funciona y no ven ningún error evidente, lo primero que revisen es si escribieron bien el nombre de la etiqueta.
+[EN PANTALLA: corregir a `<img>` y mostrar que la imagen aparece]
 
 ---
 
-### Error 3: Olvidar el atributo `alt` en las imágenes
+### Error 3 — Olvidar el atributo alt en las imágenes
 
-[EN PANTALLA: mostrar una imagen sin `alt`:]
+[EN PANTALLA: escribir en el panel HTML]
 
 ```html
 <img src="https://imagen-que-no-existe.com/foto.jpg">
 ```
 
-[EN PANTALLA: mostrar el ícono de imagen rota en el preview sin ningún texto.]
+[EN PANTALLA: mostrar el ícono de imagen rota sin ningún texto]
 
-Cuando la imagen no carga y no hay `alt`, el usuario ve un ícono roto sin ninguna explicación. No sabe qué había ahí. Para personas que usan lectores de pantalla — programas de ayuda para personas con discapacidad visual — es aún peor: la imagen simplemente no existe para ellas.
+Cuando la imagen no carga y no hay `alt`, el usuario ve un ícono roto sin ninguna explicación — no sabe qué había ahí. Y para personas que usan lectores de pantalla, que son programas de ayuda para personas con discapacidad visual, es aún peor: la imagen simplemente no existe para ellas.
 
-[EN PANTALLA: agregar `alt="Una foto de perfil"` y mostrar que el texto aparece en lugar de la imagen rota.]
+[EN PANTALLA: agregar `alt="Una foto de perfil"` y mostrar que el texto aparece en lugar del ícono roto]
 
-Con el `alt`, al menos queda claro qué había. Siempre pongan `alt` en todas sus imágenes.
+Con el `alt`, al menos queda claro qué había ahí. Por eso siempre pongan `alt` en todas sus imágenes, sin excepción.
 
 ---
 
 ## Errores comunes en CSS
 
-[EN PANTALLA: limpiar el panel CSS y empezar desde cero para las demostraciones.]
+[EN PANTALLA: limpiar el panel CSS]
 
-### Error 1: Olvidar los dos puntos o el punto y coma
+Ahora pasemos a los errores en CSS. Estos son igual de silenciosos y también muy frecuentes.
 
-[EN PANTALLA: escribir en el panel CSS:]
+### Error 1 — Olvidar los dos puntos o el punto y coma
+
+[EN PANTALLA: escribir en el panel CSS]
 
 ```css
 p {
@@ -97,11 +93,11 @@ p {
 }
 ```
 
-[EN PANTALLA: mostrar que el color del texto no cambia en el preview.]
+[EN PANTALLA: mostrar que el color del texto no cambia]
 
-¿Por qué no funciona? Porque escribí `color blue` sin los dos puntos entre la propiedad y el valor. El navegador no sabe qué significa eso y lo ignora.
+¿Por qué no funciona? Porque escribí `color blue` sin los dos puntos entre la propiedad y el valor. El navegador no sabe qué significa eso y lo ignora. Ahora fíjense en este otro caso:
 
-[EN PANTALLA: agregar los dos puntos pero quitar el punto y coma, y agregar otra propiedad:]
+[EN PANTALLA: corregir con dos puntos pero sin punto y coma, agregar otra propiedad]
 
 ```css
 p {
@@ -110,11 +106,11 @@ p {
 }
 ```
 
-[EN PANTALLA: mostrar que ambas propiedades no funcionan.]
+[EN PANTALLA: mostrar que ambas propiedades no funcionan]
 
-Ahora tengo los dos puntos pero olvidé el punto y coma al final de la primera línea. El navegador no sabe dónde termina una instrucción y dónde empieza la siguiente, así que ninguna de las dos funciona.
+Ahora tengo los dos puntos pero olvidé el punto y coma al final de la primera línea. El navegador no sabe dónde termina una instrucción y dónde empieza la siguiente, así que ninguna de las dos funciona. La fórmula siempre es: propiedad, dos puntos, valor, punto y coma. Si falta cualquiera de esos tres elementos, el estilo no se aplica.
 
-[EN PANTALLA: corregir el código:]
+[EN PANTALLA: corregir el código completo]
 
 ```css
 p {
@@ -123,15 +119,15 @@ p {
 }
 ```
 
-[EN PANTALLA: ambas propiedades funcionan correctamente.]
+[EN PANTALLA: ambas propiedades funcionan]
 
-La fórmula siempre es: propiedad, dos puntos, valor, punto y coma. Si falta cualquiera de esos tres elementos, el estilo no se aplica.
+Así sí funciona.
 
 ---
 
-### Error 2: Confundir `padding` con `margin`
+### Error 2 — Confundir padding con margin
 
-[EN PANTALLA: crear un elemento de demostración:]
+[EN PANTALLA: escribir en el panel CSS]
 
 ```css
 .caja {
@@ -140,11 +136,11 @@ La fórmula siempre es: propiedad, dos puntos, valor, punto y coma. Si falta cua
 }
 ```
 
-[EN PANTALLA: el cuadro azul se ve con espacio interno alrededor del texto.]
+[EN PANTALLA: mostrar el cuadro azul con espacio interno]
 
-Con `padding: 30px` el espacio crece *por dentro* — entre el contenido y el borde del elemento. El cuadro azul se hace más grande.
+Con `padding: 30px` el espacio crece por dentro, entre el contenido y el borde del elemento. El cuadro azul se hace más grande. Ahora observen qué pasa si cambio `padding` por `margin`:
 
-[EN PANTALLA: cambiar `padding` por `margin`:]
+[EN PANTALLA: cambiar padding por margin]
 
 ```css
 .caja {
@@ -153,58 +149,88 @@ Con `padding: 30px` el espacio crece *por dentro* — entre el contenido y el bo
 }
 ```
 
-[EN PANTALLA: el cuadro se aleja de los bordes de la pantalla, pero el fondo azul no crece.]
+[EN PANTALLA: el cuadro se aleja pero no crece por dentro]
 
-Con `margin: 30px` el cuadro se aleja de los otros elementos de la página, pero sigue siendo del mismo tamaño por dentro. El fondo azul no crece.
-
-Padding: espacio por dentro. Margin: espacio por fuera. Si alguna vez sienten que algo "está muy pegado" a sus bordes internos, es `padding`. Si algo "está muy cerca de otro elemento", es `margin`.
+Con `margin: 30px` el cuadro se aleja de los otros elementos de la página, pero sigue siendo del mismo tamaño por dentro — el fondo azul no crece. Para recordarlo fácil: padding es espacio por dentro, margin es espacio por fuera. Si algo "está muy pegado" a sus bordes internos, es padding. Si algo "está muy cerca de otro elemento", es margin.
 
 ---
 
 ## Buenas prácticas
 
-[EN PANTALLA: abrir CodePen con un ejemplo de código sin indentar y otro indentado, uno al lado del otro si es posible.]
+Además de evitar errores, hay tres hábitos que les van a ahorrar muchos problemas a largo plazo.
 
-Tres hábitos que les van a ahorrar muchos problemas.
+El primero es **indentar el código**. Cada vez que abren una etiqueta dentro de otra, agréguenle sangría — una tabulación o cuatro espacios. Miren este ejemplo:
 
-**Primero: indentar el código.** Cada vez que abren una etiqueta dentro de otra, agregan sangría — una tabulación o cuatro espacios. Miren la diferencia entre código sin indentar y código indentado. El segundo es mucho más fácil de leer y de encontrar errores.
+[EN PANTALLA: mostrar en CodePen el código sin indentar]
 
-**Segundo: usen nombres descriptivos en sus clases de CSS.** En vez de `.caja1` o `.cosa`, escriban `.tarjeta-perfil` o `.titulo-principal`. Así siempre saben qué es cada cosa cuando vuelven a leer el código días después.
+```html
+<div>
+<h1>Mi perfil</h1>
+<ul>
+<li>Música</li>
+<li>Programación</li>
+</ul>
+</div>
+```
 
-**Tercero: validen su código.**
+Funciona, pero es difícil de leer. Ahora voy a agregar la sangría en vivo para que vean la diferencia.
 
-[EN PANTALLA: abrir el navegador y navegar a validator.w3.org.]
+[EN PANTALLA: indentar el código en vivo en el mismo CodePen]
 
-Existe una herramienta oficial en validator.w3.org. Es gratis. Pegan su HTML ahí, le dan al botón de verificar, y les dice exactamente qué líneas tienen problemas. Es como un corrector ortográfico para el HTML.
+```html
+<div>
+    <h1>Mi perfil</h1>
+    <ul>
+        <li>Música</li>
+        <li>Programación</li>
+    </ul>
+</div>
+```
 
-[EN PANTALLA: pegar un HTML con un error intencional, verificar y mostrar el resultado con el error detectado.]
+Es exactamente el mismo código, pero ahora se ve claramente qué está dentro de qué. Cuando tengan decenas de etiquetas, esa diferencia es enorme.
 
-Miren cómo detecta el error y señala exactamente la línea. Muy útil cuando algo no funciona y no saben por qué.
+El segundo es **usar nombres descriptivos en sus clases de CSS**. Para mostrarlo, miren esto en el panel CSS:
+
+[EN PANTALLA: escribir en vivo en el panel CSS del mismo CodePen]
+
+```css
+/* MAL — no dice nada */
+.caja1 { color: red; }
+
+/* BIEN — sabes exactamente qué es */
+.tarjeta-perfil { color: red; }
+```
+
+Si vuelven a abrir este código días después, `.caja1` no les va a decir nada. `.tarjeta-perfil` sí. Nombren sus clases como si alguien más tuviera que leer el código.
+
+Y el tercero es **validar su código**.
+
+[EN PANTALLA: abrir nueva pestaña y navegar a validator.w3.org]
+
+Existe una herramienta oficial en validator.w3.org, completamente gratis. Para mostrársela voy a usar el código con errores que vimos antes en esta misma lección — lo copio y lo pego aquí.
+
+[EN PANTALLA: copiar el HTML del leccion-7-starter.html y pegarlo en el validador, hacer clic en verificar]
+
+Miren cómo detecta los errores y señala exactamente la línea donde están. Es como un corrector ortográfico pero para el código. Muy útil cuando algo no funciona y no saben por qué.
 
 ---
 
 ## Dónde seguir aprendiendo
 
-[EN PANTALLA: abrir una nueva pestaña y navegar a developer.mozilla.org.]
+[EN PANTALLA: abrir nueva pestaña y navegar a developer.mozilla.org]
 
-Si quieren seguir más allá de este curso, hay dos recursos completamente gratuitos que les recomiendo.
+Si quieren seguir más allá de este curso, hay dos recursos completamente gratuitos que les recomiendo. El primero es **MDN Web Docs**, en developer.mozilla.org. Es la documentación oficial de HTML y CSS, escrita en lenguaje claro. Si alguna vez tienen dudas sobre cualquier etiqueta o propiedad, búscala ahí — es la referencia más confiable que existe.
 
-El primero: **MDN Web Docs**, en developer.mozilla.org. Es la documentación oficial de HTML y CSS, escrita en lenguaje claro. Si alguna vez tienen dudas sobre cualquier etiqueta o propiedad, búscala ahí. Es la referencia más confiable que existe.
+[EN PANTALLA: abrir otra pestaña y navegar a freecodecamp.org]
 
-[EN PANTALLA: abrir otra pestaña y navegar a freecodecamp.org.]
-
-El segundo: **freeCodeCamp**, en freecodecamp.org. Tiene cursos interactivos gratuitos donde aprenden programando directamente en el navegador, igual que hicieron en este curso con CodePen.
+El segundo es **freeCodeCamp**, en freecodecamp.org. Tiene cursos interactivos gratuitos donde aprenden programando directamente en el navegador, igual que hicieron en este curso con CodePen.
 
 ---
 
 ## Cierre del curso
 
-[EN PANTALLA: mostrar una diapositiva con un resumen visual del arco completo del curso.]
+[EN PANTALLA: mostrar diapositiva con resumen visual del arco completo del curso]
 
-Y con esto cerramos el curso. Miren lo que aprendieron en estas siete lecciones.
+Y con esto cerramos el curso. Miren todo lo que aprendieron en estas siete lecciones: aprendieron qué es una página web y cómo funciona, aprendieron la estructura HTML — el esqueleto que sostiene todo, aprendieron los cinco elementos de contenido más usados, aprendieron CSS para darle color, estilo y forma a lo que construyeron, aprendieron a hacer tarjetas, bordes y centrado, y construyeron una página de perfil personal completa desde cero.
 
-Aprendieron qué es una página web y cómo funciona. Aprendieron la estructura HTML — el esqueleto que sostiene todo. Aprendieron los cinco elementos de contenido más usados. Aprendieron CSS — cómo darle color, estilo y forma a lo que construyeron. Aprendieron a hacer tarjetas, bordes y centrado. Y construyeron una página de perfil personal completa desde cero.
-
-Eso es muchísimo para empezar. Sigan practicando. Experimenten con el código. Rómpanlo a propósito para ver qué pasa y luego arréglelo. Así es como todos los programadores aprenden, sin excepción.
-
-¡Buena suerte!
+Eso es muchísimo para empezar. Sigan practicando, experimenten con el código, rómpanlo a propósito para ver qué pasa y luego arréglelo — así es como todos los programadores aprenden, sin excepción. ¡Buena suerte!
