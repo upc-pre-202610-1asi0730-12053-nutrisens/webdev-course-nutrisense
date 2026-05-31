@@ -61,7 +61,7 @@ Este curso de 1 hora introduce a estudiantes de secundaria a la creación de sit
 - `text-decoration: none` + `background-color` + `border-radius` convierten un `<a>` en botón.
 - **Proyecto final**: [Abrir en CodePen]([https://codepen.io/Cuenta-Test/pen/JobpYzZ]) **¡Personalízalo con tus datos!**
 ---
-### Lección 7: Recomendaciones y errores comunes (~8 min)
+### Lección 7: Recomendaciones y errores comunes
 <!--
 RESPONSABLE — Lección 7: JOEL
 ▸ Completa la descripción con una frase que resuma lo que el estudiante aprenderá.
