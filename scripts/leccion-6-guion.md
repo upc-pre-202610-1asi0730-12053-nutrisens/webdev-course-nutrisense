@@ -29,7 +29,7 @@ Lo primero siempre es el HTML — la estructura. Dentro del `<body>`, que es don
 
 [EN PANTALLA: señalar el `class="perfil"`.]
 
-Fíjense en el `class="perfil"`. Es la pegatina que aprendieron con Olenka: le pone una etiqueta a esta caja para que después el CSS la encuentre y le dé estilo.
+Fíjense en el `class="perfil"`. Es la pegatina que aprendieron en lecciones anteriores: le pone una etiqueta a esta caja para que después el CSS la encuentre y le dé estilo.
 
 Ahora llenemos esa caja. Lo primero: la foto.
 
@@ -98,7 +98,7 @@ body {
 
 [EN PANTALLA: el fondo cambia al color gris azulado.]
 
-Primero el `body` — que afecta a toda la página, como aprendieron con Olenka. Fondo gris azulado claro. Tipografía Arial. Y `margin: 0` elimina el espacio que los navegadores agregan por defecto alrededor de la página. Pequeño detalle, gran diferencia.
+Primero el `body` — que afecta a toda la página, como aprendieron en lecciones anteriores. Fondo gris azulado claro. Tipografía Arial. Y `margin: 0` elimina el espacio que los navegadores agregan por defecto alrededor de la página. Pequeño detalle, gran diferencia.
 
 Ahora la tarjeta del perfil. ¿Recuerdan la tarjeta de la Lección 5? Es exactamente el mismo concepto aplicado aquí.
 
