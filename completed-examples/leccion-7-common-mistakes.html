@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lección 7 — Errores Corregidos</title>
+    <style>
+        /* ✅ CORRECTO: propiedad : valor ; */
+        p {
+            color: blue;
+            font-size: 20px;
+        }
+        
+        /* ✅ CORRECTO: padding es espacio por dentro */
+        /* margin es espacio por fuera */
+        .caja {
+            background-color: lightblue;
+            padding: 30px;  /* espacio adentro — el cuadro crece por dentro */
+            /* margin: 30px; -> descomenta para ver la diferencia */ 
+        }
+    </style>
+</head>
+<body>
+    <!-- ✅ CORRECTO: etiqueta <b> cerrada en el lugar correcto -->
+    <p>Este texto tiene algo <b>importante</b> aquí</p>
+    <p>Y este párrafo también</p>
+
+    <!-- ✅ CORRECTO: etiqueta <img> bien escrita -->
+    <img src="https://images.pexels.com/photos/821365/pexels-photo-821365.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Una imagen de prueba">
+
+    <!-- ✅ CORRECTO: imagen con atributo alt -->
+    <img src="https://imagen-que-no-existe.com/foto.jpg" alt="Una foto de perfil">
+
+    <!-- Demo padding vs margin -->
+    <div class="caja">
+        <p>Contenido de la caja</p>
+    </div>
+</body>
+</html>
