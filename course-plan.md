@@ -58,7 +58,7 @@ RESPONSABLE — Lección 2: ROSE
 ▸ Revisa que los consejos clave coincidan con lo que explicaste en el video.
 -->
 - **Descripción**: Aprende qué son las etiquetas, los elementos y los atributos, y descubre el esqueleto que toda página web tiene por dentro: `<!DOCTYPE html>`, `<html>`, `<head>` y `<body>`.
-- **Enlace**: [Ver la lección]([ROSE: reemplazar con URL de YouTube])
+- **Enlace**: [Ver la lección](https://youtu.be/t94VGeuAkPY)
 - **Consejos clave**:
 - Una etiqueta tiene apertura, contenido y cierre; al conjunto se le llama elemento.
 - Los atributos van dentro de la etiqueta de apertura y dan información extra.
