@@ -90,12 +90,12 @@ RESPONSABLE — Lección 4: OLENKA
 ▸ Revisa que los consejos clave coincidan con lo que explicaste en el video.
 -->
 - **Descripción**: Dale vida a tu HTML con CSS: aprende la fórmula `selector { propiedad: valor; }`, los tres tipos de selector y las propiedades esenciales para colores, tipografía, tamaño y alineación de texto.
-- **Enlace**: [Ver la lección]([OLENKA: reemplazar con URL de YouTube — Lección 4])
+- **Enlace**: [Ver la lección](https://youtu.be/AQA_qLvvBik)
 - **Consejos clave**:
 - La fórmula siempre es `selector { propiedad: valor; }` — nunca cambia.
 - `color` cambia el texto; `background-color` cambia el fondo. No los confundas.
 - El selector por tipo (`p`, `h1`) habla con todos los elementos de ese tipo a la vez.
-- **Empieza a practicar**: [Abrir CodePen]([OLENKA: reemplazar con URL del starter L4 en CodePen]) **¡No necesitas registrarte!**
+- **Empieza a practicar**: [Abrir CodePen](https://codepen.io/olenkisha-14/pen/GgNQqPa) **¡No necesitas registrarte!**
 ---
 ### Lección 5: Estilos simples (~8 min)
 <!--
