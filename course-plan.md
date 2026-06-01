@@ -90,12 +90,12 @@ RESPONSABLE — Lección 4: OLENKA
 ▸ Revisa que los consejos clave coincidan con lo que explicaste en el video.
 -->
 - **Descripción**: Dale vida a tu HTML con CSS: aprende la fórmula `selector { propiedad: valor; }`, los tres tipos de selector y las propiedades esenciales para colores, tipografía, tamaño y alineación de texto.
-- **Enlace**: [Ver la lección](https://youtu.be/AQA_qLvvBik)
+- **Enlace**: [Ver la lección](https://youtu.be/vIQsQOKQBRk)
 - **Consejos clave**:
 - La fórmula siempre es `selector { propiedad: valor; }` — nunca cambia.
 - `color` cambia el texto; `background-color` cambia el fondo. No los confundas.
 - El selector por tipo (`p`, `h1`) habla con todos los elementos de ese tipo a la vez.
-- **Empieza a practicar**: [Abrir CodePen](https://codepen.io/olenkisha-14/pen/GgNQqPa) **¡No necesitas registrarte!**
+- **Empieza a practicar**: [Abrir CodePen](https://codepen.io/olenkisha-14/pen/azBqZKV) **¡No necesitas registrarte!**
 ---
 ### Lección 5: Estilos simples (~8 min)
 <!--
@@ -106,12 +106,12 @@ RESPONSABLE — Lección 5: OLENKA
 ▸ Revisa que los consejos clave coincidan con lo que explicaste en el video.
 -->
 - **Descripción**: Crea una tarjeta de perfil con bordes, esquinas redondeadas, sombra y contenido centrado, dominando `border`, `padding`, `margin`, `width` y `border-radius`.
-- **Enlace**: [Ver la lección]([OLENKA: reemplazar con URL de YouTube — Lección 5])
+- **Enlace**: [Ver la lección](https://youtu.be/AQA_qLvvBik)
 - **Consejos clave**:
 - `padding` es espacio por dentro (entre contenido y borde); `margin` es espacio por fuera.
 - `margin: auto` con `width` definido centra horizontalmente cualquier elemento.
 - `border-radius: 50%` convierte un cuadrado en círculo perfecto.
-- **Empieza a practicar**: [Abrir CodePen]([OLENKA: reemplazar con URL del starter L5 en CodePen]) **¡No necesitas registrarte!**
+- **Empieza a practicar**: [Abrir CodePen](https://codepen.io/olenkisha-14/pen/GgNQqPa) **¡No necesitas registrarte!**
 ---
 ### Lección 6: Creación de una página de perfil personal (~12 min)
 <!--
