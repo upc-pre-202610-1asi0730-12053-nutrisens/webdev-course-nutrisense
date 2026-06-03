@@ -42,7 +42,7 @@ RESPONSABLE — Lección 1: JOEL
 ▸ Revisa que los consejos clave coincidan con lo que explicaste en el video.
 -->
 - **Descripción**: Descubre qué es un sitio web, cómo viaja desde un servidor hasta tu pantalla, y por qué HTML y CSS son los dos ingredientes que forman cualquier página web.
-- **Enlace**: [Ver la lección](PENDIENTE)
+- **Enlace**: [Ver la lección](https://youtu.be/uwT19oYb8Q8)
 - **Consejos clave**:
 - Un sitio web es un documento que el servidor envía al navegador cuando lo solicitas.
 - HTML da la estructura y el contenido; CSS da el color, el tamaño y el diseño visual.
@@ -74,12 +74,12 @@ RESPONSABLE — Lección 3: ANGELA
 ▸ Revisa que los consejos clave coincidan con lo que explicaste en el video.
 -->
 - **Descripción**: Llena el esqueleto HTML con contenido real: títulos de seis niveles, párrafos, listas con viñetas o números, imágenes con texto alternativo y enlaces clickeables.
-- **Enlace**: [Ver la lección]([ANGELA: reemplazar con URL de YouTube])
+- **Enlace**: [Ver la lección](https://youtu.be/zQRWr-g5QYM)
 - **Consejos clave**:
 - `<h1>`–`<h6>` para títulos en orden; `<p>` para párrafos de texto.
 - `<ul>` con viñetas, `<ol>` con números; cada ítem va en `<li>`.
 - `<img>` no se cierra; siempre incluye `alt` para accesibilidad. `<a href="">` crea enlaces.
-- **Empieza a practicar**: [Abrir CodePen]([ANGELA: reemplazar con URL del starter en CodePen]) **¡No necesitas registrarte!**
+- **Empieza a practicar**: [Abrir CodePen](https://codepen.io/esspinoza21/pen/zxopbjE) **¡No necesitas registrarte!**
 ---
 ### Lección 4: Introducción a CSS (~10 min)
 <!--
@@ -90,12 +90,12 @@ RESPONSABLE — Lección 4: OLENKA
 ▸ Revisa que los consejos clave coincidan con lo que explicaste en el video.
 -->
 - **Descripción**: Dale vida a tu HTML con CSS: aprende la fórmula `selector { propiedad: valor; }`, los tres tipos de selector y las propiedades esenciales para colores, tipografía, tamaño y alineación de texto.
-- **Enlace**: [Ver la lección]([OLENKA: reemplazar con URL de YouTube — Lección 4])
+- **Enlace**: [Ver la lección](https://youtu.be/vIQsQOKQBRk)
 - **Consejos clave**:
 - La fórmula siempre es `selector { propiedad: valor; }` — nunca cambia.
 - `color` cambia el texto; `background-color` cambia el fondo. No los confundas.
 - El selector por tipo (`p`, `h1`) habla con todos los elementos de ese tipo a la vez.
-- **Empieza a practicar**: [Abrir CodePen]([OLENKA: reemplazar con URL del starter L4 en CodePen]) **¡No necesitas registrarte!**
+- **Empieza a practicar**: [Abrir CodePen](https://codepen.io/olenkisha-14/pen/azBqZKV) **¡No necesitas registrarte!**
 ---
 ### Lección 5: Estilos simples (~8 min)
 <!--
@@ -106,12 +106,12 @@ RESPONSABLE — Lección 5: OLENKA
 ▸ Revisa que los consejos clave coincidan con lo que explicaste en el video.
 -->
 - **Descripción**: Crea una tarjeta de perfil con bordes, esquinas redondeadas, sombra y contenido centrado, dominando `border`, `padding`, `margin`, `width` y `border-radius`.
-- **Enlace**: [Ver la lección]([OLENKA: reemplazar con URL de YouTube — Lección 5])
+- **Enlace**: [Ver la lección](https://youtu.be/AQA_qLvvBik)
 - **Consejos clave**:
 - `padding` es espacio por dentro (entre contenido y borde); `margin` es espacio por fuera.
 - `margin: auto` con `width` definido centra horizontalmente cualquier elemento.
 - `border-radius: 50%` convierte un cuadrado en círculo perfecto.
-- **Empieza a practicar**: [Abrir CodePen]([OLENKA: reemplazar con URL del starter L5 en CodePen]) **¡No necesitas registrarte!**
+- **Empieza a practicar**: [Abrir CodePen](https://codepen.io/olenkisha-14/pen/GgNQqPa) **¡No necesitas registrarte!**
 ---
 ### Lección 6: Creación de una página de perfil personal (~12 min)
 <!--
@@ -138,7 +138,7 @@ RESPONSABLE — Lección 7: JOEL
 ▸ Revisa que los consejos clave coincidan con lo que explicaste en el video.
 -->
 - **Descripción**: Cierre del curso: conoce los errores que comete todo principiante en HTML y CSS, aprende a detectarlos con el validador oficial, y descubre dónde seguir aprendiendo de forma gratuita.
-- **Enlace**: [Ver la lección](PENDIENTE)
+- **Enlace**: [Ver la lección](https://youtu.be/twhAchLr74o)
 - **Consejos clave**:
 - Cierra siempre tus etiquetas; el navegador puede "arreglarlo" a su manera y esconder el error.
 - En CSS: `propiedad: valor;` — sin los dos puntos o el punto y coma, el estilo no se aplica.
@@ -158,9 +158,9 @@ RESPONSABLE — Sección "Recursos adicionales":
 |---------|-----------|------------|---------------------|
 | 1 | Explorar HTML y CSS en vivo | Joel | [CodePen](https://codepen.io/joelfmr/pen/QwGOoOE) |
 | 2 | Construir el esqueleto HTML | Rose | [CodePen](https://codepen.io/roseal28/pen/GgNQmRr) |
-| 3 | Agregar elementos de contenido | Angela | [CodePen]([ANGELA: URL starter L3]) |
-| 4 | Primeros estilos CSS | Olenka | [CodePen]([OLENKA: URL starter L4]) |
-| 5 | Crear una tarjeta con CSS | Olenka | [CodePen]([OLENKA: URL starter L5]) |
+| 3 | Agregar elementos de contenido | Angela | [CodePen](https://codepen.io/esspinoza21/pen/zxopbjE) |
+| 4 | Primeros estilos CSS | Olenka | [CodePen](https://codepen.io/olenkisha-14/pen/azBqZKV) |
+| 5 | Crear una tarjeta con CSS | Olenka | [CodePen](https://codepen.io/olenkisha-14/pen/GgNQqPa) |
 | 6 | Página de perfil personal | Ángel | [CodePen]([ÁNGEL: URL starter L6]) |
 | 7 | Detectar y corregir errores | Joel | [CodePen](https://codepen.io/joelfmr/pen/KwNZvBR) |
 **¡Gracias por completar el curso!**
