@@ -86,7 +86,8 @@ Este curso de 1 hora introduce a estudiantes de secundaria a la creación de sit
 | 7 | Detectar y corregir errores | Joel | [CodePen](https://codepen.io/joelfmr/pen/KwNZvBR) |
 
 - **Recursos para seguir**: [MDN Web Docs](https://developer.mozilla.org) · [freeCodeCamp](https://www.freecodecamp.org)
-- 
+- [Formulario](https://docs.google.com/forms/d/e/1FAIpQLSfJzs5hkqArfoNEWL98Q8ggqOHuioDP86_NX3zxt_9XKTMPTQ/viewform?usp=publish-editor) — Cuestionario integral del curso
+
 
 
 **¡Gracias por completar el curso!**
@@ -99,4 +100,4 @@ Universidad Peruana de Ciencias Aplicadas <br> Carrera de Ingeniería de Softwar
 - Mora Rivera, Joel Fernando
 - Vergaray Calderon, Rose Almendra
 - Villarreal Bazan, Angel Martin
-<br>**Fecha de entrega**: 07 de junio de 2026
+**Fecha de entrega**: 07 de junio de 2026
