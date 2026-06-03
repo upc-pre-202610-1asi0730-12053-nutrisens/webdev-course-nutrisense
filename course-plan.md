@@ -74,12 +74,12 @@ RESPONSABLE — Lección 3: ANGELA
 ▸ Revisa que los consejos clave coincidan con lo que explicaste en el video.
 -->
 - **Descripción**: Llena el esqueleto HTML con contenido real: títulos de seis niveles, párrafos, listas con viñetas o números, imágenes con texto alternativo y enlaces clickeables.
-- **Enlace**: [Ver la lección]([ANGELA: reemplazar con URL de YouTube])
+- **Enlace**: [Ver la lección](https://youtu.be/zQRWr-g5QYM)
 - **Consejos clave**:
 - `<h1>`–`<h6>` para títulos en orden; `<p>` para párrafos de texto.
 - `<ul>` con viñetas, `<ol>` con números; cada ítem va en `<li>`.
 - `<img>` no se cierra; siempre incluye `alt` para accesibilidad. `<a href="">` crea enlaces.
-- **Empieza a practicar**: [Abrir CodePen]([ANGELA: reemplazar con URL del starter en CodePen]) **¡No necesitas registrarte!**
+- **Empieza a practicar**: [Abrir CodePen](https://codepen.io/esspinoza21/pen/zxopbjE) **¡No necesitas registrarte!**
 ---
 ### Lección 4: Introducción a CSS (~10 min)
 <!--
@@ -158,7 +158,7 @@ RESPONSABLE — Sección "Recursos adicionales":
 |---------|-----------|------------|---------------------|
 | 1 | Explorar HTML y CSS en vivo | Joel | [CodePen](https://codepen.io/joelfmr/pen/QwGOoOE) |
 | 2 | Construir el esqueleto HTML | Rose | [CodePen]([ROSE: URL starter L2]) |
-| 3 | Agregar elementos de contenido | Angela | [CodePen]([ANGELA: URL starter L3]) |
+| 3 | Agregar elementos de contenido | Angela | [CodePen](https://codepen.io/esspinoza21/pen/zxopbjE) |
 | 4 | Primeros estilos CSS | Olenka | [CodePen]([OLENKA: URL starter L4]) |
 | 5 | Crear una tarjeta con CSS | Olenka | [CodePen]([OLENKA: URL starter L5]) |
 | 6 | Página de perfil personal | Ángel | [CodePen]([ÁNGEL: URL starter L6]) |
