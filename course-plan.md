@@ -49,7 +49,7 @@ RESPONSABLE — Lección 1: JOEL
 - Puedes ver el código de cualquier página con clic derecho → Inspeccionar.
 - **Empieza a practicar**: [Abrir CodePen](https://codepen.io/joelfmr/pen/QwGOoOE) **¡No necesitas registrarte!**
 ---
-### Lección 2: Estructura HTML básica (~10 min)
+### Lección 2: Estructura HTML básica (~8 min)
 <!--
 RESPONSABLE — Lección 2: ROSE
 ▸ Completa la descripción con una frase que resuma lo que el estudiante aprenderá.
@@ -58,12 +58,12 @@ RESPONSABLE — Lección 2: ROSE
 ▸ Revisa que los consejos clave coincidan con lo que explicaste en el video.
 -->
 - **Descripción**: Aprende qué son las etiquetas, los elementos y los atributos, y descubre el esqueleto que toda página web tiene por dentro: `<!DOCTYPE html>`, `<html>`, `<head>` y `<body>`.
-- **Enlace**: [Ver la lección]([ROSE: reemplazar con URL de YouTube])
+- **Enlace**: [Ver la lección](https://youtu.be/t94VGeuAkPY)
 - **Consejos clave**:
 - Una etiqueta tiene apertura, contenido y cierre; al conjunto se le llama elemento.
 - Los atributos van dentro de la etiqueta de apertura y dan información extra.
 - Todo lo visible en pantalla vive dentro del `<body>`; el `<head>` es la trastienda.
-- **Empieza a practicar**: [Abrir CodePen]([ROSE: reemplazar con URL del starter en CodePen]) **¡No necesitas registrarte!**
+- **Empieza a practicar**: [Abrir CodePen](https://codepen.io/roseal28/pen/GgNQmRr) **¡No necesitas registrarte!**
 ---
 ### Lección 3: Elementos HTML comunes (~10 min)
 <!--
@@ -157,10 +157,10 @@ RESPONSABLE — Sección "Recursos adicionales":
 | Lección | Actividad | Integrante | Empezar a practicar |
 |---------|-----------|------------|---------------------|
 | 1 | Explorar HTML y CSS en vivo | Joel | [CodePen](https://codepen.io/joelfmr/pen/QwGOoOE) |
-| 2 | Construir el esqueleto HTML | Rose | [CodePen]([ROSE: URL starter L2]) |
+| 2 | Construir el esqueleto HTML | Rose | [CodePen](https://codepen.io/roseal28/pen/GgNQmRr) |
 | 3 | Agregar elementos de contenido | Angela | [CodePen](https://codepen.io/esspinoza21/pen/zxopbjE) |
-| 4 | Primeros estilos CSS | Olenka | [CodePen]([OLENKA: URL starter L4]) |
-| 5 | Crear una tarjeta con CSS | Olenka | [CodePen]([OLENKA: URL starter L5]) |
+| 4 | Primeros estilos CSS | Olenka | [CodePen](https://codepen.io/olenkisha-14/pen/azBqZKV) |
+| 5 | Crear una tarjeta con CSS | Olenka | [CodePen](https://codepen.io/olenkisha-14/pen/GgNQqPa) |
 | 6 | Página de perfil personal | Ángel | [CodePen]([ÁNGEL: URL starter L6]) |
 | 7 | Detectar y corregir errores | Joel | [CodePen](https://codepen.io/joelfmr/pen/KwNZvBR) |
 **¡Gracias por completar el curso!**
