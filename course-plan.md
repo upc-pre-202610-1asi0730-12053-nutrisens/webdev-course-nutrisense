@@ -70,15 +70,15 @@ Este curso de 1 hora introduce a estudiantes de secundaria a la creación de sit
 
 **Código fuente completo**: [Repositorio de GitHub](https://github.com/upc-pre-202610-1asi0730-12053-nutrisens/webdev-course-nutrisense)
 **Todas las actividades prácticas**:
-| Lección | Actividad | Integrante | Empezar a practicar |
-|---------|-----------|------------|---------------------|
-| 1 | Explorar HTML y CSS en vivo | Joel | [CodePen](https://codepen.io/joelfmr/pen/QwGOoOE) |
-| 2 | Construir el esqueleto HTML | Rose | [CodePen](https://codepen.io/roseal28/pen/GgNQmRr) |
-| 3 | Agregar elementos de contenido | Angela | [CodePen](https://codepen.io/esspinoza21/pen/zxopbjE) |
-| 4 | Primeros estilos CSS | Olenka | [CodePen](https://codepen.io/olenkisha-14/pen/azBqZKV) |
-| 5 | Crear una tarjeta con CSS | Olenka | [CodePen](https://codepen.io/olenkisha-14/pen/GgNQqPa) |
-| 6 | Página de perfil personal | Ángel | [CodePen](https://codepen.io/Cuenta-Test/pen/JobpYzZ) |
-| 7 | Detectar y corregir errores | Joel | [CodePen](https://codepen.io/joelfmr/pen/KwNZvBR) |
+| Lección | Actividad | Empezar a practicar |
+|---------|-----------|---------------------|
+| 1 | Explorar HTML y CSS en vivo | [CodePen](https://codepen.io/joelfmr/pen/QwGOoOE) |
+| 2 | Construir el esqueleto HTML | [CodePen](https://codepen.io/roseal28/pen/GgNQmRr) |
+| 3 | Agregar elementos de contenido | [CodePen](https://codepen.io/esspinoza21/pen/zxopbjE) |
+| 4 | Primeros estilos CSS | [CodePen](https://codepen.io/olenkisha-14/pen/azBqZKV) |
+| 5 | Crear una tarjeta con CSS | [CodePen](https://codepen.io/olenkisha-14/pen/GgNQqPa) |
+| 6 | Página de perfil personal | [CodePen](https://codepen.io/Cuenta-Test/pen/JobpYzZ) |
+| 7 | Detectar y corregir errores | [CodePen](https://codepen.io/joelfmr/pen/KwNZvBR) |
 
 - **Recursos para seguir**: [MDN Web Docs](https://developer.mozilla.org) · [freeCodeCamp](https://www.freecodecamp.org)
 - [Formulario](https://docs.google.com/forms/d/e/1FAIpQLSfJzs5hkqArfoNEWL98Q8ggqOHuioDP86_NX3zxt_9XKTMPTQ/viewform?usp=publish-editor) — Cuestionario integral del curso
