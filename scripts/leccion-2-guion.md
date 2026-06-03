@@ -1,4 +1,4 @@
-# Lección 2 — Estructura HTML básica
+# LECCIÓN 2 — Estructura HTML básica
 
 ---
 

@@ -1,5 +1,4 @@
-# Script Video — Lección 3
-## Elementos HTML comunes
+# LECCIÓN 3 — Elementos HTML comunes
 
 ---
 

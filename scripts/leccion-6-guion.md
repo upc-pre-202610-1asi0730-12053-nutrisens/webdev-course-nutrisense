@@ -1,4 +1,5 @@
 # LECCIÓN 6 — Creación de una página de perfil personal
+
 ---
 
 [EN PANTALLA: abrir CodePen con el resultado final ya cargado y visible — la página de perfil completa con foto redonda, nombre, descripción, lista de intereses y botón azul.]

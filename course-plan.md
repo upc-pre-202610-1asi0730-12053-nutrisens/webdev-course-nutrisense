@@ -1,11 +1,6 @@
 # Fundamentos de Desarrollo Web
 ## Resumen del Curso
-Este curso de 1 hora introduce a estudiantes de secundaria a la creación de sitios web sencillos con HTML y CSS. Solo abre tu navegador web.
-**Duración total**: ~59 minutos 
-**Público objetivo**: Estudiantes de 12 a 17 años sin experiencia en programación 
-**Prerrequisitos**: Ninguno 
-**Herramientas necesarias**: **¡Solo tu navegador web!** (Chrome, Firefox, Safari, Edge)
-**Repositorio de código fuente**: [https://github.com/upc-pre-202610-1asi0730-12053-nutrisens/webdev-course-nutrisense](https://github.com/upc-pre-202610-1asi0730-12053-nutrisens/webdev-course-nutrisense)
+Este curso de 1 hora introduce a estudiantes de secundaria a la creación de sitios web sencillos con HTML y CSS. Solo abre tu navegador web.<br>**Duración total**: ~59 minutos <br>**Público objetivo**: Estudiantes de 12 a 17 años sin experiencia en programación <br>**Prerrequisitos**: Ninguno <br>**Herramientas necesarias**: **¡Solo tu navegador web!** (Chrome, Firefox, Safari, Edge)<br>**Repositorio de código fuente**: [https://github.com/upc-pre-202610-1asi0730-12053-nutrisens/webdev-course-nutrisense](https://github.com/upc-pre-202610-1asi0730-12053-nutrisens/webdev-course-nutrisense)
 ## Secuencia de lecciones
 ### Lección 1: ¿Qué es el desarrollo web?
 - **Descripción**: Descubre qué es un sitio web, cómo viaja desde un servidor hasta tu pantalla, y por qué HTML y CSS son los dos ingredientes que forman cualquier página web.
@@ -23,7 +18,7 @@ Este curso de 1 hora introduce a estudiantes de secundaria a la creación de sit
 - Una etiqueta tiene apertura, contenido y cierre; al conjunto se le llama elemento.
 - Los atributos van dentro de la etiqueta de apertura y dan información extra.
 - Todo lo visible en pantalla vive dentro del `<body>`; el `<head>` es la trastienda.
-- **Empieza a practicar**: [Abrir CodePen](https://codepen.io/roseal28/pen/GgNQmRr) **¡No necesitas registrarte!**
+- **Empieza a practicar**: [Abrir CodePen](https://codepen.io/roseal28/pen/GgNQmRr)
 ---
 ### Lección 3: Elementos HTML comunes
 - **Descripción**: Llena el esqueleto HTML con contenido real: títulos de seis niveles, párrafos, listas con viñetas o números, imágenes con texto alternativo y enlaces clickeables.
@@ -32,7 +27,7 @@ Este curso de 1 hora introduce a estudiantes de secundaria a la creación de sit
 - `<h1>`–`<h6>` para títulos en orden; `<p>` para párrafos de texto.
 - `<ul>` con viñetas, `<ol>` con números; cada ítem va en `<li>`.
 - `<img>` no se cierra; siempre incluye `alt` para accesibilidad. `<a href="">` crea enlaces.
-- **Empieza a practicar**: [Abrir CodePen](https://codepen.io/esspinoza21/pen/zxopbjE) **¡No necesitas registrarte!**
+- **Empieza a practicar**: [Abrir CodePen](https://codepen.io/esspinoza21/pen/zxopbjE)
 ---
 ### Lección 4: Introducción a CSS
 - **Descripción**: Dale vida a tu HTML con CSS: aprende la fórmula `selector { propiedad: valor; }`, los tres tipos de selector y las propiedades esenciales para colores, tipografía, tamaño y alineación de texto.
@@ -41,7 +36,7 @@ Este curso de 1 hora introduce a estudiantes de secundaria a la creación de sit
 - La fórmula siempre es `selector { propiedad: valor; }` — nunca cambia.
 - `color` cambia el texto; `background-color` cambia el fondo. No los confundas.
 - El selector por tipo (`p`, `h1`) habla con todos los elementos de ese tipo a la vez.
-- **Empieza a practicar**: [Abrir CodePen](https://codepen.io/olenkisha-14/pen/azBqZKV) **¡No necesitas registrarte!**
+- **Empieza a practicar**: [Abrir CodePen](https://codepen.io/olenkisha-14/pen/azBqZKV)
 ---
 ### Lección 5: Estilos simples
 - **Descripción**: Crea una tarjeta de perfil con bordes, esquinas redondeadas, sombra y contenido centrado, dominando `border`, `padding`, `margin`, `width` y `border-radius`.
@@ -50,7 +45,7 @@ Este curso de 1 hora introduce a estudiantes de secundaria a la creación de sit
 - `padding` es espacio por dentro (entre contenido y borde); `margin` es espacio por fuera.
 - `margin: auto` con `width` definido centra horizontalmente cualquier elemento.
 - `border-radius: 50%` convierte un cuadrado en círculo perfecto.
-- **Empieza a practicar**: [Abrir CodePen](https://codepen.io/olenkisha-14/pen/GgNQqPa) **¡No necesitas registrarte!**
+- **Empieza a practicar**: [Abrir CodePen](https://codepen.io/olenkisha-14/pen/GgNQqPa)
 ---
 ### Lección 6: Creación de una página de perfil personal 
 - **Descripción**: Proyecto integrador: combina todo lo aprendido para construir desde cero una página de perfil personal con foto redonda, nombre, descripción, lista de intereses y botón de enlace.
@@ -69,7 +64,7 @@ Este curso de 1 hora introduce a estudiantes de secundaria a la creación de sit
 - Cierra siempre tus etiquetas; el navegador puede "arreglarlo" a su manera y esconder el error.
 - En CSS: `propiedad: valor;` — sin los dos puntos o el punto y coma, el estilo no se aplica.
 - Valida tu HTML en [validator.w3.org](https://validator.w3.org) antes de dar el código por terminado.
-- **Recursos para seguir**: [MDN Web Docs](https://developer.mozilla.org) · [freeCodeCamp](https://www.freecodecamp.org)
+
 ---
 ## Recursos adicionales
 
@@ -85,17 +80,16 @@ Este curso de 1 hora introduce a estudiantes de secundaria a la creación de sit
 | 6 | Página de perfil personal | Ángel | [CodePen](https://codepen.io/Cuenta-Test/pen/JobpYzZ) |
 | 7 | Detectar y corregir errores | Joel | [CodePen](https://codepen.io/joelfmr/pen/KwNZvBR) |
 
+- **Recursos para seguir**: [MDN Web Docs](https://developer.mozilla.org) · [freeCodeCamp](https://www.freecodecamp.org)
+- [Formulario](https://docs.google.com/forms/d/e/1FAIpQLSfJzs5hkqArfoNEWL98Q8ggqOHuioDP86_NX3zxt_9XKTMPTQ/viewform?usp=publish-editor) — Cuestionario integral del curso
+
+
+
 **¡Gracias por completar el curso!**
 ---
 ## Elaboración
-Universidad Peruana de Ciencias Aplicadas 
-Carrera de Ingeniería de Software 
-Período 202610 
-1ASI0730 Aplicaciones Web 
-NRC 12053
-**Nombre del equipo**: Nutrisense
-**Líder del equipo**: Villarreal Bazan Angel Martin
-**Integrantes del equipo**:
+Universidad Peruana de Ciencias Aplicadas <br> Carrera de Ingeniería de Software <br> Período 202610 <br> 1ASI0730 Aplicaciones Web <br> NRC 12053 <br> **Nombre del equipo**: Nutrisense <br> **Líder del equipo**: Villarreal Bazan Angel Martin
+<br>**Integrantes del equipo**:
 - Del Aguila Del Aguila, Olenka Priscilla
 - Espinoza Cruz, Angela Milagros
 - Mora Rivera, Joel Fernando

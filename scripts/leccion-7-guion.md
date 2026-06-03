@@ -1,5 +1,4 @@
-# Script Video — Lección 7
-## Errores comunes y recomendaciones | ~8 minutos
+#  LECCIÓN 7 — Errores comunes y recomendaciones
 
 ---
 
