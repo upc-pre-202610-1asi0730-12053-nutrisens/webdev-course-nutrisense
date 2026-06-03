@@ -74,7 +74,7 @@ RESPONSABLE — Lección 3: ANGELA
 ▸ Revisa que los consejos clave coincidan con lo que explicaste en el video.
 -->
 - **Descripción**: Llena el esqueleto HTML con contenido real: títulos de seis niveles, párrafos, listas con viñetas o números, imágenes con texto alternativo y enlaces clickeables.
-- **Enlace**: [Ver la lección](https://youtu.be/_TTTn6v1tOk)
+- **Enlace**: [Ver la lección](https://youtu.be/zQRWr-g5QYM)
 - **Consejos clave**:
 - `<h1>`–`<h6>` para títulos en orden; `<p>` para párrafos de texto.
 - `<ul>` con viñetas, `<ol>` con números; cada ítem va en `<li>`.

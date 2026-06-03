@@ -1,5 +1,5 @@
 # Script Video — Lección 3
-## Elementos HTML comunes | ~10 minutos
+## Elementos HTML comunes
 
 ---
 
