@@ -1,5 +1,4 @@
-# Script Video — Lección 1
-## ¿Qué es el desarrollo web? | ~8 minutos
+# LECCIÓN 1 — ¿Qué es el desarrollo web?
 
 ---
 

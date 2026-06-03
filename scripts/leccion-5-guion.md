@@ -1,5 +1,4 @@
 # LECCIÓN 5 — Estilos simples
-## Duración estimada: ~8 minutos**
 
 ---
 

@@ -1,5 +1,4 @@
 # LECCIÓN 4 — Introducción a CSS
-## Duración estimada: ~10 minutos
 
 ---
 
