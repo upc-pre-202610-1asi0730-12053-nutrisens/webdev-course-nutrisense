@@ -42,7 +42,7 @@ RESPONSABLE — Lección 1: JOEL
 ▸ Revisa que los consejos clave coincidan con lo que explicaste en el video.
 -->
 - **Descripción**: Descubre qué es un sitio web, cómo viaja desde un servidor hasta tu pantalla, y por qué HTML y CSS son los dos ingredientes que forman cualquier página web.
-- **Enlace**: [Ver la lección](PENDIENTE)
+- **Enlace**: [Ver la lección](https://youtu.be/uwT19oYb8Q8)
 - **Consejos clave**:
 - Un sitio web es un documento que el servidor envía al navegador cuando lo solicitas.
 - HTML da la estructura y el contenido; CSS da el color, el tamaño y el diseño visual.
@@ -138,7 +138,7 @@ RESPONSABLE — Lección 7: JOEL
 ▸ Revisa que los consejos clave coincidan con lo que explicaste en el video.
 -->
 - **Descripción**: Cierre del curso: conoce los errores que comete todo principiante en HTML y CSS, aprende a detectarlos con el validador oficial, y descubre dónde seguir aprendiendo de forma gratuita.
-- **Enlace**: [Ver la lección](PENDIENTE)
+- **Enlace**: [Ver la lección](https://youtu.be/twhAchLr74o)
 - **Consejos clave**:
 - Cierra siempre tus etiquetas; el navegador puede "arreglarlo" a su manera y esconder el error.
 - En CSS: `propiedad: valor;` — sin los dos puntos o el punto y coma, el estilo no se aplica.
