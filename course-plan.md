@@ -1,11 +1,6 @@
 # Fundamentos de Desarrollo Web
 ## Resumen del Curso
-Este curso de 1 hora introduce a estudiantes de secundaria a la creación de sitios web sencillos con HTML y CSS. Solo abre tu navegador web.
-**Duración total**: ~59 minutos 
-**Público objetivo**: Estudiantes de 12 a 17 años sin experiencia en programación 
-**Prerrequisitos**: Ninguno 
-**Herramientas necesarias**: **¡Solo tu navegador web!** (Chrome, Firefox, Safari, Edge)
-**Repositorio de código fuente**: [https://github.com/upc-pre-202610-1asi0730-12053-nutrisens/webdev-course-nutrisense](https://github.com/upc-pre-202610-1asi0730-12053-nutrisens/webdev-course-nutrisense)
+Este curso de 1 hora introduce a estudiantes de secundaria a la creación de sitios web sencillos con HTML y CSS. Solo abre tu navegador web.<br>**Duración total**: ~59 minutos <br>**Público objetivo**: Estudiantes de 12 a 17 años sin experiencia en programación <br>**Prerrequisitos**: Ninguno <br>**Herramientas necesarias**: **¡Solo tu navegador web!** (Chrome, Firefox, Safari, Edge)<br>**Repositorio de código fuente**: [https://github.com/upc-pre-202610-1asi0730-12053-nutrisens/webdev-course-nutrisense](https://github.com/upc-pre-202610-1asi0730-12053-nutrisens/webdev-course-nutrisense)
 ## Secuencia de lecciones
 ### Lección 1: ¿Qué es el desarrollo web?
 - **Descripción**: Descubre qué es un sitio web, cómo viaja desde un servidor hasta tu pantalla, y por qué HTML y CSS son los dos ingredientes que forman cualquier página web.
